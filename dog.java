@@ -1,11 +1,19 @@
-class dog {
-    
+public class dog {
     String name;
-    boolen isMale;
-    String[] pupies = new String [5];
-    dog listOfpupies;
+    boolean isMale;
+    int puppies;
+    String[] doggy = new String[4]; // Initialize array with size 4
 
-    public
+    // Method to return the dog's name
+    String tawag() {
+        return "Dog's name is: " + name;
+    }
 
-    
+    // Method to return the number of puppies
+    String bilang() {
+        return "Number of puppies: " + puppies;
+    }
+    String bark(){
+        return "woof! woof!";
+    }
 }
